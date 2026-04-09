@@ -232,7 +232,7 @@ private MyRectangle firstRectangle;
         window.makeVisible();
 
         window = new Square();
-        window.changeColor("white");
+        window.changeColor("black");
         window.moveHorizontal(230);
         window.moveVertical(350);
         window.makeVisible();
@@ -252,7 +252,7 @@ private MyRectangle firstRectangle;
     
 
         window = new Square();
-        window.changeColor("white");
+        window.changeColor("black");
         window.moveHorizontal(350);
         window.moveVertical(350);
         window.makeVisible();
