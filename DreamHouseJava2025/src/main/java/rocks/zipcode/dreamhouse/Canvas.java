@@ -29,7 +29,7 @@ public class Canvas
     public static Canvas getCanvas()
     {
         if(canvasSingleton == null) {
-            canvasSingleton = new Canvas("BlueJ Shapes Demo", 300, 300, 
+            canvasSingleton = new Canvas("BlueJ Shapes Demo", 700, 800, 
                     Color.white);
         }
         canvasSingleton.setVisible(true);
@@ -38,7 +38,7 @@ public class Canvas
 
     //  ----- instance part -----
 
-    private JFrame frame;
+    private final JFrame frame;
     private CanvasPane canvas;
     private Graphics2D graphic;
     private Color backgroundColour;

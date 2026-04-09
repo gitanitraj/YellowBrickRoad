@@ -9,9 +9,10 @@ import java.awt.Rectangle;
  * @version 1.0  (15 July 2000)
  */
 
-public class Square
+public class MyRectangle
 {
-    private int size;
+    private int width;
+    private int height; 
     private int xPosition;
     private int yPosition;
     private String color;
@@ -20,9 +21,10 @@ public class Square
     /**
      * Create a new square at default position with default color.
      */
-    public Square()
+    public MyRectangle()
     {
-        size = 30;
+        width = 30;
+        height = 60;
         xPosition = 60;
         yPosition = 50;
         color = "red";
@@ -150,10 +152,11 @@ public class Square
     /**
      * Change the size to the new size (in pixels). Size must be >= 0.
      */
-    public void changeSize(int newSize, int par1)
+    public void changeSize(int newWidth, int newHeight)
     {
         erase();
-        size = newSize;
+        width = newWidth;
+        height = newHeight;
         draw();
     }
 
@@ -168,14 +171,14 @@ public class Square
     }
 
     /*
-     * Draw the square with current specifications on screen.
+     * Draw the rectangle with current specifications on screen.
      */
     private void draw()
     {
         if(isVisible) {
             Canvas canvas = Canvas.getCanvas();
             canvas.draw(this, color,
-                    new Rectangle(xPosition, yPosition, size, size));
+                    new Rectangle(xPosition, yPosition, width, height));
             canvas.wait(10);
         }
     }
