@@ -258,7 +258,7 @@ private MyRectangle firstRectangle;
         window.makeVisible();
     
         firstRectangle = new MyRectangle();
-        firstRectangle.changeColor("blue");
+        firstRectangle.changeColor("black");
         firstRectangle.moveHorizontal(280);
         firstRectangle.moveVertical(350);   
         firstRectangle.changeSize(50, 80);
