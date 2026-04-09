@@ -202,31 +202,31 @@ private MyRectangle firstRectangle;
         
 
         window = new Square();
-        window.changeColor("green");
+        window.changeColor("black");
         window.moveHorizontal(530);
         window.moveVertical(200);
         window.makeVisible();
 
         window = new Square();
-        window.changeColor("green");
+        window.changeColor("black");
         window.moveHorizontal(460);
         window.moveVertical(300);
         window.makeVisible();
 
         window = new Square();
-        window.changeColor("green");
+        window.changeColor("black");
         window.moveHorizontal(530);
         window.moveVertical(300);
         window.makeVisible();
 
         window = new Square();
-        window.changeColor("green");
+        window.changeColor("black");
         window.moveHorizontal(460);
         window.moveVertical(250);
         window.makeVisible();
 
         window = new Square();
-        window.changeColor("green");
+        window.changeColor("black");
         window.moveHorizontal(530);
         window.moveVertical(250);
         window.makeVisible();
