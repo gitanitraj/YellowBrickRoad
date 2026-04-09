@@ -178,6 +178,13 @@ private MyRectangle firstRectangle;
         firstRectangle.changeSize(90, 10);
         firstRectangle.makeVisible();
 
+        sun = new Circle();
+        sun.changeColor("blue");
+        sun.moveHorizontal(330);
+        sun.moveVertical(20);
+        sun.changeSize(200);
+        sun.makeVisible();
+
 
         wall = new Square();
         wall.moveVertical(140);
@@ -278,12 +285,7 @@ private MyRectangle firstRectangle;
         firstRectangle.changeSize(90, 10);
         firstRectangle.makeVisible();
 
-        sun = new Circle();
-        sun.changeColor("red");
-        sun.moveHorizontal(330);
-        sun.moveVertical(20);
-        sun.changeSize(200);
-        sun.makeVisible();
+        
     }
 
     /**
